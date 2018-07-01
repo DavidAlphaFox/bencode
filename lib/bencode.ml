@@ -1,4 +1,5 @@
 external (|>) : 'a -> ('a -> 'b) -> 'b = "%revapply"
+(* Module Pervasives https://docs.mirage.io/ocaml/Pervasives/index.html *)
 include Bencode_types
 
 type src = [
